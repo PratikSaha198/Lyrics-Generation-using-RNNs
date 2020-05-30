@@ -9,13 +9,13 @@
 
 ## _**Steps to implement this project :**_
 #### 1. Fork the repository.
-#### 2. Put [lyrics_scrapper_from_GENIUS_website.py](Lyrics-Generation-using-RNNs/lyrics_scrapper_from_GENIUS_website.py) and [lyrics_dataset_creator.py](Lyrics-Generation-using-RNNs/lyrics_dataset_creator.py) in the same directory.
-#### 3. Execute [lyrics_scrapper_from_GENIUS_website.py](Lyrics-Generation-using-RNNs/lyrics_scrapper_from_GENIUS_website.py) to fetch the songs of a particular from [The GENIUS website](https://genius.com/) in a JSON file. (number of songs , title , popularity and be mentioned).
-#### 4. Execute [lyrics_dataset_creator.py](Lyrics-Generation-using-RNNs/lyrics_dataset_creator.py) to parse the JSON files , selecting just the 'lyrics' key. It also creates the dataset named 'lyrics_dataset.txt' after doing some data-cleansing.
-#### 5. Run the [Lyrics_Generation.ipynb](Lyrics-Generation-using-RNNs/Lyrics_Generation.ipynb) notebook (preferably in Google Collab with GPU support for faster execution) , uploading the 'lyrics_dataset.txt' file , getting the new lyrics being generated. 
+#### 2. Put [lyrics_scrapper_from_GENIUS_website.py](lyrics_scrapper_from_GENIUS_website.py) and [lyrics_dataset_creator.py](lyrics_dataset_creator.py) in the same directory.
+#### 3. Execute [lyrics_scrapper_from_GENIUS_website.py](lyrics_scrapper_from_GENIUS_website.py) to fetch the songs of a particular from [The GENIUS website](https://genius.com/) in a JSON file. (number of songs , title , popularity and be mentioned).
+#### 4. Execute [lyrics_dataset_creator.py](lyrics_dataset_creator.py) to parse the JSON files , selecting just the 'lyrics' key. It also creates the dataset named 'lyrics_dataset.txt' after doing some data-cleansing.
+#### 5. Run the [Lyrics_Generation.ipynb](Lyrics_Generation.ipynb) notebook (preferably in Google Collab with GPU support for faster execution) , uploading the 'lyrics_dataset.txt' file , getting the new lyrics being generated. 
 #### 6. Tweak the hyper-parameters according to "YOUR" best results
 
-### My dataset used to train and get the output is ->  [lyrics_dataset.txt](Lyrics-Generation-using-RNNs/lyrics_dataset.txt)
+### My dataset used to train and get the output is ->  [lyrics_dataset.txt](lyrics_dataset.txt)
 
 ## _**Some lyrics generated :**_
 #####    ```Love in the world``` 
