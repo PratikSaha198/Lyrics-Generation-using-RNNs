@@ -1,5 +1,5 @@
 # Lyrics-Generation-using-RNNs
-## _This project generates new lyrics which did'nt exist before using Recurrent-Neural-Networks (RNNs) from a data-set created by web scrapping [The GENIUS website](https://genius.com/) using its API._  
+## _This project generates new lyrics which did'nt exist before of your favourite artists , using Recurrent-Neural-Networks (RNNs) from a data-set created by web scrapping [The GENIUS website](https://genius.com/) using its API._  
 
 ## _**After vectorizing the text and creating training examples and targets , a four layer model was used. The Four layers used are :**_
 ####  **1. Embedding layer ->** The input layer. A trainable lookup table that will map the numbers of each character to a vector with embedding_dim dimensions
