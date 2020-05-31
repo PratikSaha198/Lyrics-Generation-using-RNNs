@@ -1,11 +1,11 @@
 # Lyrics-Generation-using-RNNs
-## This project generates new lyrics which did'nt exist before using Recurrent-Neural-Networks (RNNs) from a data-set created by web scrapping [The GENIUS website](https://genius.com/) using its API.  
+## _This project generates new lyrics which did'nt exist before using Recurrent-Neural-Networks (RNNs) from a data-set created by web scrapping [The GENIUS website](https://genius.com/) using its API._  
 
 ## _**After vectorizing the text and creating training examples and targets , a four layer model was used. The Four layers used are :**_
-####  **1. Embedding layer :** The input layer. A trainable lookup table that will map the numbers of each character to a vector with embedding_dim dimensions
-####  **2. GRU layer :** A type of RNN with size units=rnn_units (Birectional-LSTM could also be used here.)
-#### **3. Dense layer :** The output layer, with vocab_size outputs and 'RELU' as the activation fuction 
-#### **4. Dropout layer :** Benifits regularisation and prevents overfitting  
+####  **1. Embedding layer ->** The input layer. A trainable lookup table that will map the numbers of each character to a vector with embedding_dim dimensions
+####  **2. GRU layer ->** A type of RNN with size units=rnn_units (Birectional-LSTM could also be used here.)
+#### **3. Dense layer ->** The output layer, with vocab_size outputs and 'RELU' as the activation fuction 
+#### **4. Dropout layer ->** Benifits regularisation and prevents overfitting  
 
 ## _**The final prediction loop for text generation works as follows**_
 ![Image of something](https://www.tensorflow.org/tutorials/text/images/text_generation_sampling.png)
@@ -18,7 +18,7 @@
 #### 5. Run the [Lyrics_Generation.ipynb](Lyrics_Generation.ipynb) notebook (preferably in Google Collab with GPU support for faster execution) , uploading the 'lyrics_dataset.txt' file , getting the new lyrics being generated. 
 #### 6. Tweak the hyper-parameters according to "YOUR" best results
 
-### My dataset used to train and get the output is ->  [lyrics_dataset.txt](lyrics_dataset.txt)
+## _My dataset used to train and get the output is  =>   [lyrics_dataset.txt](lyrics_dataset.txt)_
 
 ## _**Some lyrics generated :**_
 #####    ```Love in the world``` 
@@ -31,6 +31,8 @@
 #####    ```If we want it to be```
 #####    ```I'll be taking my time```
 #####    ```As she looks lovely in the wood```
+
+## _**This model can be used for any type of text prediction , not being limited to only lyrics.**_
 
 ## _**Scope for improvements :**_
 #### 1. Using a LSTM-GAN based model, it has the best potential for most coherent output.
