@@ -1,5 +1,6 @@
 import lyricsgenius
 
+# Head over to -> 'https://genius.com/api-clients/new' create a account and the generate client api and get your 'CLIENT ACCESS TOKEN'
 # Input your GENIUS API : CLIENT ACCESS TOKEN
 # After every 100 song fetching requests the new API client needs to be created
 client_access_token = str(input("Enter the client access token : "))
