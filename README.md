@@ -13,10 +13,11 @@
 ## _**Steps to implement this project :**_
 #### 1. Fork the repository.
 #### 2. Put [lyrics_scrapper_from_GENIUS_website.py](lyrics_scrapper_from_GENIUS_website.py) and [lyrics_dataset_creator.py](lyrics_dataset_creator.py) in the same directory.
-#### 3. Install 'lyricsgenius' module in your local terminal. Execute [lyrics_scrapper_from_GENIUS_website.py](lyrics_scrapper_from_GENIUS_website.py) for each individual artist , to fetch their songs from [The GENIUS website](https://genius.com/) in a JSON file. (number of songs , title , popularity and be mentioned). Repeat execution for many artists.
-#### 4. Execute [lyrics_dataset_creator.py](lyrics_dataset_creator.py) to parse the JSON files which selects just the 'lyrics' key. It also creates the dataset named 'lyrics_dataset.txt' after doing some data-cleansing.
-#### 5. Run the [Lyrics_Generation.ipynb](Lyrics_Generation.ipynb) notebook (preferably in Google Collab with GPU support for faster execution) , uploading the 'lyrics_dataset.txt' file , getting the new lyrics being generated. 
-#### 6. Tweak the hyper-parameters according to "YOUR" best results
+#### 3. Head over to [https://genius.com/api-clients/new](https://genius.com/api-clients/new) , create your GENIUS account and then generate a client api and get your 'CLIENT ACCESS TOKEN'.
+#### 4. Install 'lyricsgenius' module in your local terminal. Execute [lyrics_scrapper_from_GENIUS_website.py](lyrics_scrapper_from_GENIUS_website.py) for each individual artist , to fetch their songs from [The GENIUS website](https://genius.com/) in a JSON file. (number of songs , title , popularity and be mentioned). Repeat execution for many artists.
+#### 5. Execute [lyrics_dataset_creator.py](lyrics_dataset_creator.py) to parse the JSON files which selects just the 'lyrics' key. It also creates the dataset named 'lyrics_dataset.txt' after doing some data-cleansing.
+#### 6. Run the [Lyrics_Generation.ipynb](Lyrics_Generation.ipynb) notebook (preferably in Google Collab with GPU support for faster execution) , uploading the 'lyrics_dataset.txt' file , getting the new lyrics being generated. 
+#### 7. Tweak the hyper-parameters according to "YOUR" best results
 
 ## _My dataset used to train and get the output is  =>   [lyrics_dataset.txt](lyrics_dataset.txt)_
 
