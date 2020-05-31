@@ -2,10 +2,10 @@
 ## _This project generates new lyrics which did'nt exist before of your favourite artists , using Recurrent-Neural-Networks (RNNs) from a data-set created by web scrapping [The GENIUS website](https://genius.com/) using its API._  
 
 ## _After vectorizing the text and creating training examples and targets , a four layer model was used. The Four layers used are :_
-####  **1. Embedding layer ->** The input layer. A trainable lookup table that will map the numbers of each character to a vector with embedding_dim dimensions
-####  **2. GRU layer ->** A type of RNN with size units=rnn_units (Birectional-LSTM could also be used here.)
-#### **3. Dense layer ->** The output layer, with vocab_size outputs and 'RELU' as the activation fuction 
-#### **4. Dropout layer ->** Benifits regularisation and prevents overfitting  
+#### 1. Embedding layer -> The input layer. A trainable lookup table that will map the numbers of each character to a vector with embedding_dim dimensions
+#### 2. GRU layer -> A type of RNN with size units=rnn_units (Birectional-LSTM could also be used here.)
+#### 3. Dense layer -> The output layer, with vocab_size outputs and 'RELU' as the activation fuction 
+#### 4. Dropout layer -> Benifits regularisation and prevents overfitting  
 
 ## _**The final prediction loop for text generation works as follows**_
 ![Image of something](https://www.tensorflow.org/tutorials/text/images/text_generation_sampling.png)
